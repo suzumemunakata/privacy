@@ -1,169 +1,243 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Kebijakan Privasi — Melki Dev</title>
-
-    <meta name="description" content="Kebijakan Privasi Anime Live Wallpapers.">
-    <meta name="robots" content="index, follow">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
-            background: #f7f7f7;
-            color: #222;
-        }
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kebijakan Privasi — Weva Neo</title>
+<meta name="description" content="Kebijakan Privasi Weva Neo oleh Melki Dev.">
+<meta name="robots" content="index, follow">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+        background: #f7f7f7;
+        color: #222;
+    }
+    .container {
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 40px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+        margin-top: 0;
+        color: #111;
+    }
+    h2 {
+        margin-top: 32px;
+        color: #222;
+    }
+    p {
+        margin: 12px 0;
+    }
+    ul {
+        padding-left: 25px;
+    }
+    .updated {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .switch {
+        display: flex;
+        gap: 8px;
+        margin: 0 0 28px;
+    }
+    .switch button {
+        font: inherit;
+        font-size: 14px;
+        cursor: pointer;
+        background: transparent;
+        color: #555;
+        border: 1px solid #ddd;
+        border-radius: 999px;
+        padding: 6px 16px;
+    }
+    .switch button[aria-pressed="true"] {
+        background: #0066cc;
+        border-color: #0066cc;
+        color: #fff;
+        font-weight: 600;
+    }
+    footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        color: #777;
+        font-size: 14px;
+        text-align: center;
+    }
+    [hidden] {
+        display: none !important;
+    }
+    @media (max-width: 600px) {
         .container {
-            max-width: 850px;
-            margin: 40px auto;
-            padding: 40px;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            margin: 0;
+            padding: 25px 20px;
+            border-radius: 0;
         }
-
-        h1 {
-            margin-top: 0;
-            color: #111;
-        }
-
-        h2 {
-            margin-top: 32px;
-            color: #222;
-        }
-
-        p {
-            margin: 12px 0;
-        }
-
-        ul {
-            padding-left: 25px;
-        }
-
-        .updated {
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 30px;
-        }
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #777;
-            font-size: 14px;
-            text-align: center;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                margin: 0;
-                padding: 25px 20px;
-                border-radius: 0;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
-
 <body>
-
 <main class="container">
 
-    <h1>Kebijakan Privasi</h1>
+    <div class="switch">
+        <button type="button" id="btn-id" aria-pressed="true">Bahasa Indonesia</button>
+        <button type="button" id="btn-en" aria-pressed="false">English</button>
+    </div>
 
-    <p class="updated">
-        Terakhir diperbarui: 13 Agustus 2026
-    </p>
+    <section id="lang-id">
+        <h1>Kebijakan Privasi</h1>
+        <p class="updated">
+            Terakhir diperbarui: 13 Agustus 2026
+        </p>
+        <p>
+            Selamat datang di <strong>Weva Neo</strong>.
+            Kami menghargai privasi pengunjung dan berkomitmen untuk
+            melindungi informasi yang Anda berikan saat menggunakan website ini.
+        </p>
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p>
+            Website ini pada dasarnya dapat digunakan tanpa harus membuat akun,
+            mendaftar, atau memberikan informasi pribadi seperti nama, alamat,
+            nomor telepon, atau kata sandi.
+        </p>
+        <p>
+            Namun, seperti website pada umumnya, server atau layanan pihak ketiga
+            yang digunakan oleh website dapat secara otomatis menerima informasi
+            teknis tertentu, seperti alamat IP, jenis perangkat, browser,
+            sistem operasi, waktu kunjungan, dan halaman yang dikunjungi.
+        </p>
+        <h2>2. Tautan ke Website Lain</h2>
+        <p>
+            Website ini dapat berisi tautan menuju website atau layanan pihak ketiga.
+            Kami tidak bertanggung jawab atas isi, keamanan, atau kebijakan privasi
+            website pihak ketiga tersebut.
+        </p>
+        <p>
+            Kami menyarankan Anda membaca kebijakan privasi dari setiap website
+            pihak ketiga yang Anda kunjungi.
+        </p>
+        <h2>3. Keamanan</h2>
+        <p>
+            Kami berusaha menggunakan langkah-langkah yang wajar untuk menjaga
+            keamanan website. Namun, tidak ada metode transmisi atau penyimpanan
+            data melalui internet yang dapat dijamin 100% aman.
+        </p>
+        <h2>4. Perubahan Kebijakan Privasi</h2>
+        <p>
+            Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu.
+            Setiap perubahan akan dipublikasikan pada halaman ini dan tanggal
+            pembaruan akan diubah sesuai dengan perubahan yang dilakukan.
+        </p>
+        <h2>5. Hubungi Kami</h2>
+        <p>
+            Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini,
+            Anda dapat menghubungi kami melalui:
+        </p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:animenarai04@gmail.com">animenarai04@gmail.com</a>
+        </p>
+    </section>
 
-    <p>
-        Selamat datang di <strong>Melki Dev</strong>.
-        Kami menghargai privasi pengunjung dan berkomitmen untuk
-        melindungi informasi yang Anda berikan saat menggunakan website ini.
-    </p>
-
-    <h2>1. Informasi yang Kami Kumpulkan</h2>
-
-    <p>
-        Website ini pada dasarnya dapat digunakan tanpa harus membuat akun,
-        mendaftar, atau memberikan informasi pribadi seperti nama, alamat,
-        nomor telepon, atau kata sandi.
-    </p>
-
-    <p>
-        Namun, seperti website pada umumnya, server atau layanan pihak ketiga
-        yang digunakan oleh website dapat secara otomatis menerima informasi
-        teknis tertentu, seperti alamat IP, jenis perangkat, browser,
-        sistem operasi, waktu kunjungan, dan halaman yang dikunjungi.
-    </p>
-
-    <h2>2. Tautan ke Website Lain</h2>
-
-    <p>
-        Website ini dapat berisi tautan menuju website atau layanan pihak ketiga.
-        Kami tidak bertanggung jawab atas isi, keamanan, atau kebijakan privasi
-        website pihak ketiga tersebut.
-    </p>
-
-    <p>
-        Kami menyarankan Anda membaca kebijakan privasi dari setiap website
-        pihak ketiga yang Anda kunjungi.
-    </p>
-
-    
-    <h2>3. Keamanan</h2>
-
-    <p>
-        Kami berusaha menggunakan langkah-langkah yang wajar untuk menjaga
-        keamanan website. Namun, tidak ada metode transmisi atau penyimpanan
-        data melalui internet yang dapat dijamin 100% aman.
-    </p>
-
-    <h2>4. Perubahan Kebijakan Privasi</h2>
-
-    <p>
-        Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu.
-        Setiap perubahan akan dipublikasikan pada halaman ini dan tanggal
-        pembaruan akan diubah sesuai dengan perubahan yang dilakukan.
-    </p>
-
-    <h2>5. Hubungi Kami</h2>
-
-    <p>
-        Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini,
-        Anda dapat menghubungi kami melalui:
-    </p>
-
-    <p>
-        <strong>Email:</strong>
-        <a href="mailto:animenarai04@gmail.com">
-            animenarai04@gmail.com
-        </a>
-    </p>
+    <section id="lang-en" hidden>
+        <h1>Privacy Policy</h1>
+        <p class="updated">
+            Last updated: August 13, 2026
+        </p>
+        <p>
+            Welcome to <strong>Weva Neo</strong>.
+            We value our visitors' privacy and are committed to protecting
+            the information you provide while using this website.
+        </p>
+        <h2>1. Information We Collect</h2>
+        <p>
+            This website can generally be used without creating an account,
+            registering, or providing personal information such as your name,
+            address, phone number, or password.
+        </p>
+        <p>
+            However, like most websites, the servers or third-party services
+            used by this website may automatically receive certain technical
+            information, such as your IP address, device type, browser,
+            operating system, time of visit, and pages viewed.
+        </p>
+        <h2>2. Links to Other Websites</h2>
+        <p>
+            This website may contain links to third-party websites or
+            services. We are not responsible for the content, security, or
+            privacy practices of those third-party websites.
+        </p>
+        <p>
+            We recommend reading the privacy policy of any third-party
+            website you visit.
+        </p>
+        <h2>3. Security</h2>
+        <p>
+            We take reasonable steps to keep this website secure. However,
+            no method of transmission or storage over the internet can be
+            guaranteed to be 100% secure.
+        </p>
+        <h2>4. Changes to This Privacy Policy</h2>
+        <p>
+            This Privacy Policy may be updated from time to time. Any changes
+            will be posted on this page, and the updated date will be revised
+            to reflect the changes made.
+        </p>
+        <h2>5. Contact Us</h2>
+        <p>
+            If you have any questions about this Privacy Policy, you can
+            reach us at:
+        </p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:animenarai04@gmail.com">animenarai04@gmail.com</a>
+        </p>
+    </section>
 
     <footer>
         &copy; 2026 Melki Dev. All rights reserved.
     </footer>
-
 </main>
 
+<script>
+    (function () {
+        var id = document.getElementById('lang-id');
+        var en = document.getElementById('lang-en');
+        var bId = document.getElementById('btn-id');
+        var bEn = document.getElementById('btn-en');
+
+        function show(lang) {
+            var isEn = lang === 'en';
+            id.hidden = isEn;
+            en.hidden = !isEn;
+            bId.setAttribute('aria-pressed', String(!isEn));
+            bEn.setAttribute('aria-pressed', String(isEn));
+            document.documentElement.lang = isEn ? 'en' : 'id';
+        }
+
+        bId.addEventListener('click', function () { show('id'); });
+        bEn.addEventListener('click', function () { show('en'); });
+
+        var device = (navigator.language || 'id').slice(0, 2);
+        if (device !== 'id' && device !== 'in') show('en');
+    })();
+</script>
 </body>
 </html>
